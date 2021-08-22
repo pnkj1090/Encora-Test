@@ -2,9 +2,10 @@
 I have implemented all of the functionalities but there are some limitations
 like, you cant update/delete the latest entry, unable to reflect updated values on the view etc.
 because updated values are not persisted on the server.
+
 ## Default User Credential
-Email: ani@gmail.com or any provided in users api.
-Password: any 3 letters or digits
+**Email**: ani@gmail.com or any provided in users api.
+**Password**: Any 3 letters or digits.
 
 ## Things Implemented
 1. Interceptor
