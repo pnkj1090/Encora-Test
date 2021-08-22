@@ -1,0 +1,11 @@
+body {
+    font-size: .875rem;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.width-50-px {
+    width: 50px
+}

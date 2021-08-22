@@ -1,0 +1,42 @@
+<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" routerLink="/home">Encora</a>
+    <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <marquee class="text-white"> Encora Wins 2021 American Business
+        Awards® For Excellence in Next Generation Product Engineering Services</marquee>
+    <div class="navbar-nav">
+        <div class="nav-item text-nowrap">
+            <span class="nav-link px-3 cursor-pointer" (click)="signOut()">Sign out</span>
+        </div>
+    </div>
+</header>
+
+<div class="container-fluid">
+    <div class="row">
+        <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+            <div class="position-sticky pt-3">
+                <ul class="nav flex-column list-menu">
+                    <li class="nav-item mb-1">
+                        <a class="nav-link" [routerLinkActive]="['active', 'disabled']" aria-current="page"
+                            routerLink="contacted-person" data-bs-toggle="collapse" data-bs-target=".collapse.show">
+                            <i class="fas fa-people-arrows mx-2"></i>
+                            Company's contacted person
+                        </a>
+                    </li>
+                    <li class="nav-item mb-1">
+                        <a class="nav-link" [routerLinkActive]="['active', 'disabled']" routerLink="company"
+                            data-bs-toggle="collapse" data-bs-target=".collapse.show">
+                            <i class="far fa-building mx-2"></i>
+                            Companies
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+            <router-outlet></router-outlet>
+        </main>
+    </div>
+</div>
