@@ -4,7 +4,7 @@ like, you cant update/delete the latest entry, unable to reflect updated values 
 because updated values are not persisted on the server.
 
 ## Default User Credential
-**Email**: ani@gmail.com or any provided in users api.
+**Email**: ani@gmail.com or any provided in users api. </br>
 **Password**: Any 3 letters or digits.
 
 ## Things Implemented
